@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-box-right{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+.header-box-link{
+font-family: 'RR';
+font-weight: 700;
+font-size: 18px;
+text-align: right;
+color: #3a3838;
+transition: 300ms;
+}
+
+.header-box-link:hover{
+    color: #ef4423;
+}
+
+.header-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.main-box-st,
+.main-box-nd,
+.main-box-rd,
+.main-box-th{
+    max-width: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-box-tittle{
+    font-family: 'RB';
+font-weight: 700;
+font-size: 19px;
+color: #fff;
+}
+
+.main-box-text{
+    font-family: 'RR';
+font-weight: 400;
+font-size: 16px;
+color: #ebebeb;
+margin-top: 8px;
+}
+.main-first-info{
+    background: #b71c1c;
+    padding: 8px 15px 15px 15px;
+
+}
+
+.main-info-nd{
+    background: #6a1b9a;
+    padding: 15px 15px 8px 15px;
+
+}
+
+
+.main-info-rd{
+    padding: 8px 15px 15px 15px;
+    background: #303f9f;
+}
+
+.main-info-th{
+    padding: 15px 15px 8px 15px;
+    background: #00695c;
+}
+
+.main-box{
+    display: flex;
+    margin-top: 36px;
+    width: 100%;
+}
+
+.main-info-tittle{
+    font-family: 'RB';
+font-weight: 700;
+font-size: 22px;
+color: #3a3838;
+margin-top: 40px;
+margin-bottom: 40px;
+text-align: center;
+}
+
+.main-info{
+    background: #ededed;
+    margin-bottom: 50px;
+}
+
+.main-info-item-tittle{
+    font-family: 'RB';
+font-weight: 700;
+font-size: 22px;
+color: #3a3838;
+}
+
+.main-info-item-text{
+    font-family: 'RR';
+font-weight: 400;
+font-size: 18px;
+color: #686868;
+margin-top: 30px;
+}
+
+.main-info-item{
+    max-width: 540px;
+    width: 100%;
+
+}
+
+.main-item{
+    display: flex;
+    gap: 30px;
+}
+
+.header-head-img,
+.main-item-img {
+    width: 100%;
+}
+
+.footer{
+    background: #3a3838;
+}
+
+.footer-logo{
+    background: #3a3838;
+}
+
+
+.footer-box-link{
+    font-family: 'RB';
+font-weight: 700;
+font-size: 18px;
+text-align: right;
+color: #fff;
+transition: 500ms;
+}
+
+.footer-box-link:hover{
+    color: #ef4423;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-box{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-logo{
+    margin: 29px 0;
+}
+
+.main,
+footer{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}

@@ -1,0 +1,27 @@
+@media (max-width:1140px) {
+    .main-box{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    .main-item{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+}
+@media (max-width:850px) {
+.header-box,
+.footer-info {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;    
+} 
+.footer-box,
+.header-box-right{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}  
+}
